@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(971, 500)
+        MainWindow.resize(1920, 562)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.table = QTableWidget(self.centralwidget)
@@ -39,13 +39,13 @@ class Ui_MainWindow(object):
         __qtablewidgetitem4 = QTableWidgetItem()
         self.table.setHorizontalHeaderItem(4, __qtablewidgetitem4)
         self.table.setObjectName(u"table")
-        self.table.setGeometry(QRect(10, 10, 571, 481))
+        self.table.setGeometry(QRect(10, 10, 661, 541))
         self.lb_title = QLabel(self.centralwidget)
         self.lb_title.setObjectName(u"lb_title")
-        self.lb_title.setGeometry(QRect(590, 10, 56, 12))
+        self.lb_title.setGeometry(QRect(690, 10, 771, 16))
         self.lb_content = QLabel(self.centralwidget)
         self.lb_content.setObjectName(u"lb_content")
-        self.lb_content.setGeometry(QRect(590, 30, 371, 461))
+        self.lb_content.setGeometry(QRect(680, 30, 1311, 521))
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
