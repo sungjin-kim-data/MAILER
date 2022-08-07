@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1920</width>
+    <width>1710</width>
     <height>562</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>661</width>
+      <width>791</width>
       <height>541</height>
      </rect>
     </property>
@@ -52,7 +52,7 @@
    <widget class="QLabel" name="lb_title">
     <property name="geometry">
      <rect>
-      <x>690</x>
+      <x>810</x>
       <y>10</y>
       <width>771</width>
       <height>16</height>
@@ -65,8 +65,8 @@
    <widget class="QLabel" name="lb_content">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>30</y>
+      <x>810</x>
+      <y>10</y>
       <width>1311</width>
       <height>521</height>
      </rect>
